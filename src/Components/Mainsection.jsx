@@ -8,7 +8,7 @@ const Mainsection = ({fetchpromise}) => {
  const Datalist = use(fetchpromise);
  const maindata = Datalist.map( data => <Products data={data}></Products>)
     return (
-        <div className=' my-5 space-y-3  w-10/12 mx-auto border text-center'>
+        <div className=' my-20 space-y-3  w-10/12 mx-auto border text-center'>
             <div className='space-y-2'>
             <h4 className='font-bold text-5xl'>Premium Digital Tools</h4>
             <p className='text-gray-600 font-semibold'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>

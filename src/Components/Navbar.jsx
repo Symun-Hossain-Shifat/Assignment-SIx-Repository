@@ -53,7 +53,7 @@ const Navbar = () => {
       </div>
     </div>
    <h5>Login</h5>
-   <button className='btn rounded-3xl bg-gradient-to-l to-blue-800 from-blue-500 font-bold'>Get Started</button>
+   <button className='btn text-white rounded-3xl bg-gradient-to-l to-blue-800 from-blue-500 font-bold'>Get Started</button>
   </div>
 
          
