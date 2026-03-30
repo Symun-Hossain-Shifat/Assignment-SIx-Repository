@@ -7,6 +7,9 @@ import Mainsection from './Components/Mainsection'
 import Navbar from './Components/Navbar'
 import Started from './Components/Started'
 import Pricing from './Components/Pricing'
+import Workflow from './Components/Workflow'
+import Footer from './Components/Footer'
+
 
 function App() {
   const fetchpromise = fetch('data.json').then(res=> res.json())
@@ -22,6 +25,9 @@ function App() {
     </Suspense>
     <Started></Started>
     <Pricing></Pricing>
+    <Workflow></Workflow>
+    <Footer></Footer>
+   
     
     </>
 
