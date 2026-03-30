@@ -10,10 +10,14 @@ const Products = ({data,selected,setSelected,amount,setAmount}) => {
   
   
   if(clicked === true){
-  setSelected([...selected,data])
-  setCliked(false)
-  setAmount(amount+data.price)
-   toast( `${data.name} "Is Selected"`)
+    
+      setSelected([...selected,data])
+      setCliked(false)
+      setAmount(amount+data.price)
+      toast( `${data.name} "Is Selected"`)
+   
+  
+  
   }else{
     toast.warning(`${data.name} "Is Already Selected"`)
     return;

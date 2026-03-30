@@ -10,7 +10,7 @@ const Started = () => {
                 <div className=' items-center justify-center top-3 right-3 absolute w-7 h-7 rounded-full bg-gradient-to-r from-blue-600 to-blue-400 '>
                    <p className='text-white font-bold text-1xl'>1</p>
                 </div>
-                <img className='mx-auto bg-blue-100 p-3 rounded-full' src="src/assets/user.png" alt="" />
+                <img className='mx-auto bg-blue-100 p-3 rounded-full' src="assets/user.png" alt="" />
                 <h3 className='font-bold text-2xl'>Create Account</h3>
                 <p className='font-semibold text-gray-600'>Sign up for free in seconds. No credit card required to get started.</p>
             </div>
@@ -18,7 +18,7 @@ const Started = () => {
                  <div className=' items-center justify-center top-3 right-3 absolute w-7 h-7 rounded-full bg-gradient-to-r from-blue-600 to-blue-400 '>
                    <p className='text-white font-bold text-1xl'>2</p>
                 </div>
-                <img className='mx-auto bg-blue-100 p-3 rounded-full' src="src/assets/package.png" alt="" />
+                <img className='mx-auto bg-blue-100 p-3 rounded-full' src="assets/package.png" alt="" />
                 <h3 className='font-bold text-2xl'>Create Account</h3>
                 <p className='font-semibold text-gray-600'>Sign up for free in seconds. No credit card required to get started.</p>
             </div>
@@ -27,7 +27,7 @@ const Started = () => {
                    <p className='text-white font-bold text-1xl'>3</p>
                 </div>
              
-                     <img className='mx-auto  bg-blue-100 p-3 rounded-full ' src="src/assets/rocket.png" alt="" />
+                     <img className='mx-auto  bg-blue-100 p-3 rounded-full ' src="assets/rocket.png" alt="" />
 
                 
                

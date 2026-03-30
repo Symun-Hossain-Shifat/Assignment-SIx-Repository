@@ -4,14 +4,18 @@ import { RiDeleteBin5Line } from 'react-icons/ri';
 
 const Cart = ({selected,setSelected,amount,setAmount}) => {
  const event = (data) => {
+
+  const filterdata = selected.filter(item => item.name !== data.name); 
+  setSelected(filterdata)
  setAmount(amount-data.price)
  }
 
     return (
-        selected.length > 0 ? (<div className='border flex flex-col gap-5'>
+        selected.length > 0 ? (<div className=' flex flex-col gap-5'>
+            <h2 className='font-bold text-left text-2xl '>Your Cart</h2>
 
             {selected.map(data => {
-               return <div className='border p-2 flex items-center justify-between '>
+               return <div className=' p-2 rounded-2xl  bg-gray-100 flex items-center justify-between '>
                 <div className='flex gap-2 items-center' >
                     <img className='w-7 h-7' src={data.icon} alt="" />
                 <div className='text-left'>
@@ -22,7 +26,7 @@ const Cart = ({selected,setSelected,amount,setAmount}) => {
 
                 </div>
 
-                <span onClick={()=>event(data)} className='bg-blue-100 rounded-full p-2'><RiDeleteBin5Line size={20} /></span>
+                <span onClick={()=>event(data)} className='bg-blue-100 cursor-pointer rounded-full px-3 py-2'><p className='text-red-600 font-bold '>Remove</p></span>
 
 
 
@@ -30,7 +34,7 @@ const Cart = ({selected,setSelected,amount,setAmount}) => {
                </div>
 
             })}
-            <div className='flex bg-gray-100 items-center justify-between p-3'>
+            <div className='flex items-center justify-between p-3'>
                 <h3 className='font-bold text-2xl'>Total</h3>
                 <p className='font-semibold text-2xl'>$ {amount}</p>
             </div>

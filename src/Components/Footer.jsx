@@ -45,9 +45,9 @@ const Footer = () => {
             <div>
                 <h2>Social Links</h2>
                 <div className='flex gap-2'>
-                    <img src="src/assets/Instagram.png" alt="Instragam icon" />
-                    <img src="src/assets/Facebook.png" alt="facebook icon" />
-                    <img src="src/assets/Twitter.png" alt="twitter icon" />
+                    <img src="assets/Instagram.png" alt="Instragam icon" />
+                    <img src="assets/Facebook.png" alt="facebook icon" />
+                    <img src="assets/Twitter.png" alt="twitter icon" />
                 </div>
             </div>
             

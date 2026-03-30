@@ -8,7 +8,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["10+ templates", "Basic customization", "Export to PDF"],
-    "icon": "src/assets/products/design-tool.png"
+    "icon": "assets/products/design-tool.png"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["100+ templates", "ATS optimization", "Cover letter builder"],
-    "icon": "src/assets/products/operation.png"
+    "icon": "assets/products/operation.png"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["Portfolio builder", "Resume analytics", "Job tracking"],
-    "icon": "src/assets/products/portfolio.png"
+    "icon": "assets/products/portfolio.png"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["Project showcase", "Client proposals", "Invoice generator"],
-    "icon": "src/assets/products/shopping-cart.png"
+    "icon": "assets/products/shopping-cart.png"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["Simple templates", "Internship tips", "Basic export"],
-    "icon": "src/assets/products/social-media.png"
+    "icon": "assets/products/social-media.png"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["Executive templates", "Personal branding", "LinkedIn optimization"],
-    "icon": "src/assets/products/writing_2327400 1.png"
+    "icon": "assets/products/writing_2327400 1.png"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["Custom domains", "Drag & drop editor", "SEO optimization"],
-    "icon": "src/assets/products/design-tool.png"
+    "icon": "assets/products/design-tool.png"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["AI suggestions", "Job alerts", "Skill gap analysis"],
-    "icon": "src/assets/products/portfolio.png"
+    "icon": "assets/products/portfolio.png"
   },
   {
     "id": 9,
@@ -96,6 +96,6 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["All features included", "Priority support", "Unlimited exports"],
-    "icon": "src/assets/products/shopping-cart.png"
+    "icon": "assets/products/shopping-cart.png"
   }
 ]
