@@ -7,8 +7,8 @@ const Pricing = () => {
             <p className='text-gray-600 font-semibold'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
         
         <div className='grid w-10/12 p-5 mx-auto justify-between grid-cols-1 md:grid-cols-3 gap-5'>
-           <div className="card  bg-base-100 shadow-sm">
-  <div className="card-body text-left">
+           <div className="card  card-body text-left flex flex-col bg-base-100 shadow-sm">
+  <div className="card-body text-left flex flex-col">
     
     <div className="flex justify-between">
       <h2 className="text-3xl font-bold">Started</h2>
@@ -39,13 +39,13 @@ const Pricing = () => {
       </li>
       
     </ul>
-    <div className="mt-6">
+    <div className="mt-auto">
       <button className="btn text-white rounded-2xl bg-gradient-to-r from-blue-800 to-blue-500 btn-block">Get Started Free</button>
     </div>
   </div>
 </div>
-           <div className="card bg-gradient-to-r relative from-blue-800 to-blue-500 text-white  bg-base-100 shadow-sm">
-  <div className="card-body text-left">
+           <div className="card card-body text-left flex flex-col bg-gradient-to-r relative from-blue-800 to-blue-500 text-white  bg-base-100 shadow-sm">
+  <div className="card-body text-left flex flex-col">
     
     <div className="flex justify-between">
         <span className="badge  badge-warning p-3 rounded-2xl -top-2 right-28 absolute">Most Popular</span>
@@ -85,12 +85,12 @@ const Pricing = () => {
       </li>
       
     </ul>
-    <div className="mt-6">
+    <div className="mt-auto">
       <button className="btn text-blue-700  rounded-2xl  btn-block">Start Pro Trial</button>
     </div>
   </div>
 </div>
-           <div className="card  bg-base-100 shadow-sm">
+           <div className="card  card-body text-left flex flex-col bg-base-100 shadow-sm">
   <div className="card-body text-left">
     
     <div className="flex justify-between">
@@ -130,7 +130,7 @@ const Pricing = () => {
       </li>
       
     </ul>
-    <div className="mt-6">
+    <div className="mt-auto">
       <button className="btn text-white rounded-2xl bg-gradient-to-r from-blue-800 to-blue-500 btn-block">Contact Sales</button>
     </div>
   </div>
