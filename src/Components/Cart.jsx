@@ -1,10 +1,11 @@
 import React from 'react';
 import { IoCartOutline } from 'react-icons/io5';
 import { RiDeleteBin5Line } from 'react-icons/ri';
+import { toast } from 'react-toastify';
 
 const Cart = ({selected,setSelected,amount,setAmount}) => {
  const event = (data) => {
-
+ toast(`${data.name} is Deleted`)
   const filterdata = selected.filter(item => item.name !== data.name); 
   setSelected(filterdata)
  setAmount(amount-data.price)
@@ -38,7 +39,7 @@ const Cart = ({selected,setSelected,amount,setAmount}) => {
                 <h3 className='font-bold text-2xl'>Total</h3>
                 <p className='font-semibold text-2xl'>$ {amount}</p>
             </div>
-            <button onClick={()=>{setSelected([]),setAmount(0)}}  className={`btn btn-block bg-gradient-to-r from-blue-800 to-blue-600 rounded-2xl text-white font-semibold`}>Proceed To Checkout</button>
+            <button onClick={()=>{setSelected([]),setAmount(0),toast.warning('All Item Is Deleted')}}  className={`btn btn-block bg-gradient-to-r from-blue-800 to-blue-600 rounded-2xl text-white font-semibold`}>Proceed To Checkout</button>
 
 
   
