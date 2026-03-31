@@ -1,16 +1,22 @@
-# React + Vite
+My project Name is Assignment-six-project 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this project i use react framework , daisyUI ,taiwindcss , Javascript . when i finish any section with my own knowledge this time my happiness knews no bounds . By doing this project I learn many thing and face some problem and when i think about this problem and analysis about this   then it  help me to rebuild my confidence level .Overall This project Help me to gain many skill , problem solving , increase error facing meantality and finally it boost up my confidence level.
 
-Currently, two official plugins are available:
+In this React project I used :
+* React (version 8.0.0)
+* Tailwindcss
+* DaisyUI
+* javascript
+* React Toastify
+* REact Icon
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+ Honestly speaking there are lots of feature in this project . Some of them are : 
+ * when i done my functionality of this project , i notice  that if i want , i can select a product many times . as a result same product selected many times .then i study about this problem and finally i able to solved this
+ *  after completing my project i see in netlify live link project there are no img shown in page , i feel scared and think it was a big mistake . but after trying many times i ask AI about this and it say that it is a simple problem , that i should move my asset folder from src to public and rebuild the project and deploy and create live link it was work prefectly .my this error i learn Never Give Up meantality.
+ *  By doing whole project I learn react , javascript function like filter,map,find  .SO i think this project Increase My skill , confidence ,Never give Up to reach the dream
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+ 
