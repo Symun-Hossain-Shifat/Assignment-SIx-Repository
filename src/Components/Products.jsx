@@ -1,18 +1,20 @@
-import React, { useState } from 'react';
+
 import { toast } from 'react-toastify';
 
 const Products = ({data,selected,setSelected,amount,setAmount}) => {
     const Features = data.features; 
-    const [clicked , setCliked] = useState(true)
+ 
+
+    const isselected = selected.find(item => item.name === data.name)
 
  const btnhandle = (data) => {
   
+  const isexist = selected.find(item => item.name === data.name)
   
-  
-  if(clicked === true){
+  if(!isexist){
     
       setSelected([...selected,data])
-      setCliked(false)
+    
       setAmount(amount+data.price)
       toast( `${data.name} "Is Selected"`)
    
@@ -46,7 +48,7 @@ const Products = ({data,selected,setSelected,amount,setAmount}) => {
         })}
      </ul>
     <div className="mt-auto">
-      <button onClick={()=>{btnhandle(data)}} className={`btn btn-block text-white font-semibold  ${clicked?'bg-gradient-to-r from-blue-800 to-blue-600':'bg-green-500'} rounded-2xl`}>{clicked?'Buy Now':'Added To Cart'}</button>
+      <button onClick={()=>{btnhandle(data)}} className={`btn btn-block text-white font-semibold  ${!isselected?'bg-gradient-to-r from-blue-800 to-blue-600':'bg-green-500'} rounded-2xl`}>{!isselected?'Buy Now':'Added To Cart'}</button>
     </div>
   </div>
 </div>

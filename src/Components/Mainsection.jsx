@@ -17,7 +17,7 @@ const Mainsection = ({fetchpromise,selected,setSelected}) => {
             <p className='text-gray-600 font-semibold'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
             </div>
             
-            <div className='font-bold'>
+            <div className='font-bold flex justify-center gap-2'>
                 <button onClick={()=>setCliked(true)} className={`btn ${clicked?'bg-blue-600 , text-white':'bg-white text-black'} rounded-2xl`}>Products</button>
                 <button onClick={()=>setCliked(false)} className={`btn ${!clicked?'bg-blue-600 , text-white':'bg-white text-black'} rounded-2xl`}>Carts ({selected.length})</button>
             </div>
